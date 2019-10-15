@@ -7,11 +7,14 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- FontAwesome CSS-->
+    <script src="https://kit.fontawesome.com/434cdb48b9.js" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <!-- Tema -->
+    <link rel="stylesheet" href="assets/css/lazy.css">
     <title>Esta pagina Revela el Clima!</title>
 </head>
 
@@ -40,7 +43,6 @@
             </div>
         </div>
     </div>
-    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -53,6 +55,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <!-- optional plugins -->
+    <script src="assets/vendor/nouislider/js/nouislider.min.js"></script>
+    <!--   lazy javascript -->
+    <script src="assets/js/lazy.js"></script>
 </body>
 
 </html>
