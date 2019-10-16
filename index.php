@@ -108,26 +108,10 @@
     </div>
 
     <footer class="footer-1 bg-light text-dark">
-        <div class="container">
-            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
-                <div class="links">
-                    <ul class="footer-menu list-unstyled d-flex flex-row text-center text-md-left">
-                        <li><a href="https://github.com/velosergio" target="_blank">Ver más</a></li>
-                    </ul>
-                </div>
-                <div class="social mt-4 mt-md-0">
-                    <a class="github btn btn-outline-primary btn-icon" href="https://github.com/velosergio/ClimaAPI"
-                        target="_blank">
-                        <i class="fab fa-github"></i>
-                        <span class="sr-only">Ver perfil de GitHub</span>
-                    </a>
-                </div>
-            </div>
             <div class="copyright text-center">
                 <hr />
-                <p class="small">&copy; 2019, hecho por German Perez y Sergio Veloza</p>
+                <p class="small">&copy; 2019, hecho por German Perez, Carolina Peralta, Moises Troncoso y Hugo Valeta</p>
             </div>
-        </div>
     </footer>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
