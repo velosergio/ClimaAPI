@@ -2,9 +2,9 @@
 
 Documentación de la App
 
-## v0.0.2 Cambios
+## v0.0.3 Cambios
 
-* Nueva interfaz grafica
+* Version funcional
 
 ## creditos
 
