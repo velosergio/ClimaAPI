@@ -103,7 +103,7 @@
     </div>
     <div class="cta bg-primary text-center text-white">
         <h1 class="text-white">Nuevas Actualizaciones pronto...</h1>
-		<p class="lead">Mas ciudades, correciones de errores, toda la documentacipon en GitHub</p>
+		<p class="lead">Mas ciudades, correciones de errores, toda la documentación en GitHub</p>
         <a href="#a" class="btn btn-white btn-lg mt-4"><i class="fab fa-github"></i> Ver GitHub</a>
     </div>
 
