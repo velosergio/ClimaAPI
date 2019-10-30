@@ -9,28 +9,22 @@
     <meta name="description" content="A new design system for developing with less effort.">
     <meta name="author" content="BootstrapBay">
     <link href="assets/img/favicon.ico" rel="icon" type="image/png">
-    <!-- Bootstrap -->
     <link rel="stylesheet" href="./assets/vendor/bootstrap/bootstrap.min.css">
-    <!-- Tema -->
     <link rel="stylesheet" href="./assets/css/lazy.css">
     <link rel="stylesheet" href="./assets/css/demo.css">
-    <!-- Iconos -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css"
         integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
 </head>
 
 <body class="landing">
-<!-- Inicio de la Barra de Navegación -->
     <nav class="navbar navbar-expand-md navbar-light bg-white mb-4">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="./"><img src="assets/img/logo.svg"
                     alt="Example Navbar 1" class="mr-2" height="30"> ClimaAPI</a>
-            <!-- Menu Hamburguesa -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown-3"
                 aria-controls="navbarNavDropdown-3" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <!-- Fin del Menu Haburguesa -->
             <div class="collapse navbar-collapse mr-auto text-center" id="navbarNavDropdown-3">
                 <ul class="navbar-nav ml-auto ">
                     <li class="nav-item mx-2">
@@ -47,8 +41,6 @@
             </div>
         </div>
     </nav>
-    <!-- Fin de Barra de Navegación -->
-    <!-- Parte Izquierda-->
     <div class="header bg-white">
         <div class="container">
             <div class="row">
@@ -66,21 +58,17 @@
                         </div>
                     </div>
                 </div>
-                <!-- Parte Derecha-->
                 <div class="col-12 col-md-6">
-                <!-- Incluir a la api-->
 				<?php include('api.php');?>
                     <div class="devices pl-md-4 pt-5 pt-md-0">
                         <!-- Ciudad -->
                         <h1 class="display-1"><?php echo $data->name; ?></h1>
-						<!-- Temperatura -->
-                        <h1 class="display-8">Temperatura: <?php echo $data->main->temp; ?>°C</h1>
+						<!-- Temperatura Max - Temperatura Min -->
+                        <h1 class="display-8"><?php echo $data->main->temp_min; ?>°C - <?php echo $data->main->temp_max; ?> °C</h1>
                         <!-- Descripción -->
                         <h1 class="display-8"><?php echo ucwords($data->weather[0]->description); ?></h1>
                         <!-- Humedad - Vientos -->
                         <h3 class="display-12">Humedad: <?php echo $data->main->humidity; ?> % - Vientos: <?php echo $data->wind->speed; ?> km/h</h1>
-                        <!-- Presion Atmosferica -->
-                        <h3 class="display-12">Presion Atmosferica: <?php echo $data->main->pressure; ?> hPa </h3>
                     </div>
                 </div>
             </div>
