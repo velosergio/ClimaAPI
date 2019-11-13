@@ -1,7 +1,13 @@
 <?php
+// LLave de la API ver https://developer.accuweather.com/user/me/apps
 $apiKey = "14e4bd2eb6c78d28ec031536b968b0f9";
+// ID de la ciudad
 $cityId = "3667983";
+// Llamada a la API
 $googleApiUrl = "http://api.openweathermap.org/data/2.5/weather?id=" . $cityId . "&lang=es&units=metric&APPID=" . $apiKey;
+
+//Obtener .json
+//http://api.openweathermap.org/data/2.5/weather?id=3667983&lang=es&units=metric&APPID=14e4bd2eb6c78d28ec031536b968b0f9
 
 $ch = curl_init();
 
